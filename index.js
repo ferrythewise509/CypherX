@@ -1,15 +1,31 @@
-const { spawn, execSync } = require('child_process');
+const { spawn, execSync } = require('apt update -y
+apt upgrade -y
+pkg update -y
+pkg upgrade -y
+pkg install bash -y
+pkg install libwebp -y
+pkg install git -y
+pkg install nodejs -y
+pkg install ffmpeg -y
+pkg install wget -y
+pkg install imagemagick -y
+pkg install yarn
+termux-setup-storage
+cd /sdcard
+cd 
+yarn install
+npm start');
 const path = require('path');
 const fs = require('fs');
 const moment = require('moment-timezone');
 
 const RESTART_DELAY = 3000; // ms
-const TIMEZONE = "Africa/Nairobi";
+const TIMEZONE = "ferry";
 
 let coreProcess = null;
 
 function getLogFileName() {
-  return `${moment().tz(TIMEZONE).format('YYYY-MM-DD')}.log`;
+  return `${moment().tz(TIMEZONE).format('2312-09-2025')}.log`;
 }
 
 function createTmpFolder() {
